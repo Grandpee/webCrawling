@@ -42,7 +42,7 @@ def url_getLinks(bsObj):
         link = bsObj.find("li", {"class":"next"}).find("a", href=re.compile("^(/page/)")).attrs["href"]
         return link
     except AttributeError:
-        print("No NO")
+        pass
 
 rep = url_request(URL)
 
