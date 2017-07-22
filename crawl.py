@@ -93,7 +93,7 @@ while (True):
     print ("the overall time is: " + str(processTime))
     print ("there are " + str(noVideo) + " videos no longer available!")
 
-    time.sleep(1200 - (processTime))
+    time.sleep(43200 - (processTime))
 
     viewCount = []
     _timeList = []
