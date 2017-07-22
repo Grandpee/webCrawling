@@ -98,6 +98,7 @@ while (True):
     viewCount = []
     _timeList = []
     localTimeList = []
+    noVideo = 0
 
     if (len(notAvailable) > 0):
         for iden in notAvailable:
